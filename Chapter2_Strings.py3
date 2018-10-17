@@ -19,3 +19,13 @@ print("Original Name: " + wsName + ".")
 print("No left spaces: " + wsName.lstrip() + ".")
 print("No right spaces: " + wsName.rstrip() + ".")
 print("No space spaces: " + wsName.strip() + ".")
+
+#Exercise 2-8
+print(2+6)
+print(int(24/3))
+print(int(.5*16))
+print(36-28)
+
+#Exercise 2-9
+numFav = 5
+print("My favorite number is " + str(numFav) + ".")
