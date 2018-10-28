@@ -35,8 +35,9 @@ for name in names:
 
 print("Oh no, there are only two seats!")
 
-for value in range(len(names), 2):
-	uninvited = names[value].pop()
+
+for value in range(2, len(names)):
+	uninvited = names.pop()
 	print("Sorry, " + uninvited + ", there's no seat for you.")
 
 print("Guests at dinner: " + str(len(names)))
